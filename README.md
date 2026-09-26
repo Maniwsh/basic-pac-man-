@@ -1,4 +1,4 @@
-# Circuit Runner
+# Pac Man
 
 A self-contained browser arcade game you can open and edit in VS Code. It takes the tile-based maze idea from the linked Pacman tutorial and makes a new game with an original grid, glowing shard visuals, a chargeable pulse, and sentinels that move in a random open direction.
 
