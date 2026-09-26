@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080d1b"><title>Circuit Runner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="shell">
+    <header><div><p class="eyebrow">NEON ARCADE · BUILD 01</p><h1>CIRCUIT <span>RUNNER</span></h1></div><button id="sound" class="quiet" aria-label="Toggle sound">SOUND: OFF</button></header>
+    <section class="game-layout">
+      <div class="screen-wrap"><canvas id="game" aria-label="Circuit Runner game board"></canvas><div id="overlay" class="overlay"><div class="card"><div class="orb">✦</div><p class="eyebrow">SYSTEM BREACH DETECTED</p><h2>Run the grid.</h2><p>Collect every data shard. Charge your pulse. Reach the exit before the sentinels catch you.</p><button id="start">START RUN <span>↗</span></button></div></div></div>
+      <aside><div class="stat"><label>DATA SHARDS</label><strong id="score">00 <small>/ 00</small></strong></div><div class="stat"><label>RUN TIME</label><strong id="time">00:00</strong></div><div class="stat"><label>PULSE CHARGE</label><div class="meter"><i id="charge"></i></div><small id="pulse-hint">Collect shards to charge</small></div><div class="stat"><label>SECTOR</label><strong id="sector">01 <small>· THE GRID</small></strong></div><div class="controls"><label>CONTROLS</label><p><kbd>WASD</kbd> / <kbd>↑↓←→</kbd> Move</p><p><kbd>SPACE</kbd> Pulse when charged</p><p><kbd>P</kbd> Pause run</p></div><p id="status" class="status">READY WHEN YOU ARE</p></aside>
+    </section><footer><span>ARROW KEYS / WASD TO MOVE</span><span>BUILT FOR THE NIGHT SHIFT <b>◆</b></span></footer>
+  </main><script src="game.js"></script>
+</body></html>
